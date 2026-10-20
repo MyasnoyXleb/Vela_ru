@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171714">
+  <meta name="description" content="VELA — меню ресторана средиземноморской кухни.">
+  <title>VELA — Меню ресторана</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="VELA — в начало">VELA<span>®</span></a>
+    <span class="header-note">СРЕДИЗЕМНОМОРСКАЯ КУХНЯ</span>
+    <span class="header-mark">МЕНЮ <i>·</i> 2026</span>
+  </header>
+
+  <main id="top" class="menu-page">
+    <section class="menu-intro">
+      <p class="eyebrow"><span></span> ВКУС МОМЕНТА</p>
+      <h1>Искусство<br><em>наслаждаться.</em></h1>
+      <p class="intro-copy">Сезонные продукты, чистые вкусы и немного Средиземноморья в каждой детали.</p>
+      <div class="intro-bottom"><span>МЕНЮ РЕСТОРАНА</span><span>ЛИСТАЙТЕ, ЧТОБЫ ОТКРЫТЬ <b>↓</b></span></div>
+    </section>
+
+    <section class="menu-content" aria-label="Меню ресторана">
+      <div class="menu-toolbar"><span>НАШЕ МЕНЮ</span><span>ИЗ ПРОДУКТОВ СЕЗОНА</span></div>
+
+      <section class="menu-category" id="starters">
+        <div class="category-heading"><span class="category-number">01</span><h2>Закуски <em>и начало</em></h2><span class="category-caption">ДЛЯ ПЕРВОГО ВПЕЧАТЛЕНИЯ</span></div>
+        <div class="dish-list">
+          <article class="dish"><div class="dish-info"><h3>Буррата и томаты</h3><p>Спелые томаты, базилик, оливковое масло первого отжима</p></div><span class="price">4 900 ₸</span></article>
+          <article class="dish"><div class="dish-info"><h3>Тартар из тунца</h3><p>Тунец, цитрусовая заправка, авокадо, кунжут</p></div><span class="price">6 500 ₸</span></article>
+          <article class="dish"><div class="dish-info"><h3>Карпаччо из говядины</h3><p>Пармезан, рукола, каперсы, лимонная заправка</p></div><span class="price">5 800 ₸</span></article>
+          <article class="dish"><div class="dish-info"><h3>Тёплые оливки</h3><p>Оливки, розмарин, цедра апельсина</p></div><span class="price">2 400 ₸</span></article>
+        </div>
+      </section>
+
+      <section class="menu-category" id="main-courses">
+        <div class="category-heading"><span class="category-number">02</span><h2>Основные <em>блюда</em></h2><span class="category-caption">В ЦЕНТРЕ СТОЛА</span></div>
+        <div class="feature-dish"><img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=1100&q=85" alt="Рыбное блюдо с зеленью и сезонными овощами" loading="lazy"><div class="feature-caption"><span>ВЫБОР ШЕФА</span><span>FRESH FROM THE COAST</span></div></div>
+        <div class="dish-list">
+          <article class="dish"><div class="dish-info"><h3>Филе сибаса</h3><p>Сезонные овощи, фенхель, соус из белого вина</p></div><span class="price">9 800 ₸</span></article>
+          <article class="dish"><div class="dish-info"><h3>Телятина с розмарином</h3><p>Картофельный крем, печёный чеснок, мясной соус</p></div><span class="price">11 500 ₸</span></article>
+          <article class="dish"><div class="dish-info"><h3>Ризотто с белыми грибами</h3><p>Арборио, пармезан, тимьян, трюфельное масло</p></div><span class="price">7 200 ₸</span></article>
+          <article class="dish"><div class="dish-info"><h3>Паста с морепродуктами</h3><p>Лингвини, креветки, мидии, томаты черри</p></div><span class="price">8 600 ₸</span></article>
+        </div>
+      </section>
+
+      <section class="menu-category" id="desserts">
+        <div class="category-heading"><span class="category-number">03</span><h2>Десерты <em>и финал</em></h2><span class="category-caption">ОСТАНЬТЕСЬ ЕЩЁ НЕМНОГО</span></div>
+        <div class="dessert-grid">
+          <article class="dessert-card"><img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=85" alt="Нежный десерт с кремом" loading="lazy"><div class="dessert-line"><h3>Ванильная панна-котта</h3><span>3 200 ₸</span></div><p>Сезонные ягоды, ваниль, фруктовый соус</p></article>
+          <article class="dessert-card"><img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=900&q=85" alt="Шоколадный десерт" loading="lazy"><div class="dessert-line"><h3>Шоколадный фондан</h3><span>3 600 ₸</span></div><p>Тёплый шоколад, сливочное мороженое</p></article>
+        </div>
+      </section>
+
+      <section class="menu-category drinks" id="drinks">
+        <div class="category-heading"><span class="category-number">04</span><h2>Напитки <em>и аперитивы</em></h2><span class="category-caption">К КАЖДОМУ МОМЕНТУ</span></div>
+        <div class="dish-list">
+          <article class="dish"><div class="dish-info"><h3>Домашний лимонад</h3><p>Лимон, мята, лёгкая сладость</p></div><span class="price">1 800 ₸</span></article>
+          <article class="dish"><div class="dish-info"><h3>Эспрессо / американо</h3><p>Кофе свежей обжарки</p></div><span class="price">1 200 ₸</span></article>
+          <article class="dish"><div class="dish-info"><h3>Чайная коллекция</h3><p>Чёрный, зелёный или травяной чайник</p></div><span class="price">2 000 ₸</span></article>
+          <article class="dish"><div class="dish-info"><h3>Вода без газа / с газом</h3><p>Минеральная вода, 0,5 л</p></div><span class="price">1 500 ₸</span></article>
+        </div>
+      </section>
+      <p class="menu-disclaimer">Меню и цены представлены в рамках концепта. Пожалуйста, уточняйте состав блюд и возможные аллергены у персонала.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contacts">
+    <div class="footer-main"><a class="wordmark footer-logo" href="#top">VELA<span>®</span></a><div class="footer-contact"><span class="footer-label">АДРЕС</span><p>12 Chemin des Plages<br>Сен-Тропе, Франция</p></div><div class="footer-contact"><span class="footer-label">БРОНИРОВАНИЕ И ВОПРОСЫ</span><p><a href="tel:+33400000000">+33 (0)4 00 00 00 00</a><br><a href="mailto:bonjour@vela.example">bonjour@vela.example</a></p></div><div class="footer-contact"><span class="footer-label">МЫ ОТКРЫТЫ</span><p>Вт — Вс<br>12:00–14:00 · 19:00–22:00</p></div></div>
+    <div class="footer-bottom"><span>© VELA, 2026 · КОНЦЕПТ РЕСТОРАНА</span><a href="#top">В НАЧАЛО ↑</a></div>
+  </footer>
+</body>
+</html>
